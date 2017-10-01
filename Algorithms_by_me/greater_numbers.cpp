@@ -1,3 +1,5 @@
+//to print numbers greater than any number from array without using for loop
+
 #include <iostream>
 #include <vector>
 #include <string>
