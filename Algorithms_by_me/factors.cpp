@@ -1,7 +1,7 @@
 //factors of a number without using for loop
 
 void factors(int A,int x,vector<int> &V){
-    if(x == A+1) return;
+    if(x == (int)sqrt(A)+1) return;
     if(A%x == 0) V.push_back(x);
     x++;
     factors(A,x,V);
