@@ -17,7 +17,6 @@ void binary(int q,vector<int> &V){
 }
 
 int main() {
-	// your code goes here
 	int A;
     cin>>A;
 	vector<int> V;
