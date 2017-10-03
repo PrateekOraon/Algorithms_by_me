@@ -21,10 +21,13 @@ int main() {
     cin>>A;
 	vector<int> V;
 	binary(A,V);
-	std::stringstream ss;
+    if(A == 0) cout<<"0";
+    else if(A == 1) cout<<"1";
+    else{
+    binary(A,V);
+    stringstream ss;
 	for(size_t i = V.size()-1; i > 0; i--)
 	{
-	  
 	  ss << V[i];
 	}
 	ss << V[0];
@@ -32,4 +35,5 @@ int main() {
 	std::string s = ss.str();
 	cout<<s;
 	return 0;
+    }
 }
