@@ -1,7 +1,7 @@
 //to find all prime number upto A in n*loglogn time
 
 
-vector<int> Solution::sieve(int A) {
+vector<int> sieve(int A) {
     vector<int> V(A+1,1);
     vector<int> Z;
     
