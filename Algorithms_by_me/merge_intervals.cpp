@@ -1,3 +1,5 @@
+// 2-pointer approach to merge intervals
+
 bool cmp(Interval a,Interval b)
  {
      return a.start<=b.start;
