@@ -1,4 +1,4 @@
-// C++ implementaion of BIT for finding number of inversions
+// C++ implementaion of BIT for finding number of inversions in an array
 
 #include <iostream>
 #include<bits/stdc++.h>
